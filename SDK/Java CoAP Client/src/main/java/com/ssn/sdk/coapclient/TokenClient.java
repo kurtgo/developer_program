@@ -23,9 +23,9 @@ public class TokenClient
     private Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
     // Starfish token endpoint
-    private static final String tokenUrl = "https://api.data-platform.developer.ssni.com/api/tokens";
-
-
+   
+    private static final String tokenUrl = "https://poc.api.dev.ssniot.cloud/api/tokens";//"https://api.data-platform.developer.ssni.com/api/tokens";
+    
 
     public String getApiToken(String clientId, String clientSecret) throws Exception
     {

@@ -1,17 +1,17 @@
 {
-  "proxyHost": "api.coap-staging.developer.ssni.com",
+  "proxyHost": "api.coap-test.developer.ssni.com",
   "proxyPort": "5683",
   "clientPort": "6000",
   "observe": "true",
   "maxNotifications": "5",
   "method" : "GET",
   "timeout": "3000",
-  "clientId": "<clientId>",
-  "clientSecret": "<clientSecret>",
+  "clientId": "377ccb9e-9a37-4b28-9621-1545d056b111",
+  "clientSecret": "G8EVG3Z29RCiNwrT+UHbCcQtS6c1UEmIifxyc9P8lLfZ5nyu8ojKZw",
   "devices": [
     {
-      "deviceId": "<deviceId>",
-      "deviceHost": "SSN<macAddress>.shared-starfish-test-install.eng.ssnsgs.net",
+      "deviceId":"95986091-642f-4533-8d1a-b2fc0ec4d9a1",
+      "deviceHost": "SSN00135003007e836b.shared-starfish-test-install.eng.ssnsgs.net",
       "devicePort": "4849",
       "devicePath": "/sensor/arduino/temp",
       "deviceQuery": "sens"

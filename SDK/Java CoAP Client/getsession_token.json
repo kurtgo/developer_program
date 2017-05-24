@@ -2,12 +2,12 @@
   "clientPort": "6000",
   "method" : "POST",
   "timeout": "30",
-  "clientId": "<clientId>",
-  "clientSecret": "<clientSecret>",
+  "clientId": "377ccb9e-9a37-4b28-9621-1545d056b111",
+  "clientSecret": "G8EVG3Z29RCiNwrT+UHbCcQtS6c1UEmIifxyc9P8lLfZ5nyu8ojKZw",
   "devices": [
     {
       "deviceId": "gateway",
-      "deviceHost": "api.coap-staging.developer.ssni.com",
+      "deviceHost": "api.coap-test.developer.ssni.com",
       "devicePort": "5683",
       "devicePath": "/sessions"
     }
